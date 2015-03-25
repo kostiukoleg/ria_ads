@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>RIA Admin Panel</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="container theme-showcase" role="main">
+	<div class="row">
+		<div class="col-xs-3">
+		<div class="page-header">
+        	<h1>Форма поиска</h1>
+    </div>
+		<form>
+      <div class="form-group">
+		    <label for="exampleInputEmail1">ADS ID</label>
+		    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter ADS ID">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">ADS %</label>
+		    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter ADS %">
+		  </div>
+      <div class="form-group">
+        <label for="limit">ADS LIMIT</label>
+        <input type="text" class="form-control" id="limit" placeholder="Enter ADS LIMIT">
+      </div>
+		  <button type="submit" class="btn btn-default">Поиск</button>
+		</form>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+		<div class="page-header">
+        	<h1>Таблица обявлений</h1>
+      	</div>
+<table class="table table-striped">
+            <thead>
+              <tr>
+                <th>ADS ID</th>
+                <th>ADS %</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>9731364</td>
+                <td>40</td>
+
+              </tr>
+              <tr>
+                <td>9731481</td>
+                <td>42</td>
+
+              </tr>
+              <tr>
+                <td>9695874</td>
+                <td>28</td>
+
+              </tr>
+              <tr>
+                <td>8367052</td>
+                <td>28</td>
+
+              </tr>
+              <tr>
+                <td>9743169</td>
+                <td>28</td>
+              </tr>
+              <tr>
+                <td>9743043</td>
+                <td>28</td>
+              </tr>
+              <tr>
+                <td>9603123</td>
+                <td>28</td>
+              </tr>
+              <tr>
+                <td>9447483</td>
+                <td>28</td>
+              </tr>
+              <tr>
+                <td>8872340</td>
+                <td>28</td>
+              </tr>
+              <tr>
+                <td>9473378</td>
+                <td>28</td>
+              </tr>
+            </tbody>
+          </table>
+		</div>
+	</div>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
